@@ -1,0 +1,253 @@
+date,transaction_id,merchant,category,amount,payment_mode,description
+2026-04-01,100000,House Rent - Landlord,Rent,8000.0,UPI,Monthly rent payment
+2026-04-01,100001,Ola,Transport,267.3,UPI,Transport expense at Ola
+2026-04-01,100002,Zomato,Food & Dining,330.38,Debit Card,Food & Dining expense at Zomato
+2026-04-01,100003,Local Dhaba,Food & Dining,91.76,UPI,Food & Dining expense at Local Dhaba
+2026-04-01,100004,Cafe Coffee Day,Food & Dining,89.82,UPI,Food & Dining expense at Cafe Coffee Day
+2026-04-02,100005,Uber,Transport,173.75,UPI,Transport expense at Uber
+2026-04-03,100006,Electricity Board,Bills & Utilities,1207.05,UPI,Electricity bill
+2026-04-03,100007,Broadband - Jio Fiber,Bills & Utilities,799.0,UPI,Internet bill
+2026-04-03,100008,Local Dhaba,Food & Dining,205.89,UPI,Food & Dining expense at Local Dhaba
+2026-04-03,100009,Gym Membership,Health,243.09,UPI,Health expense at Gym Membership
+2026-04-03,100010,Local Kirana,Groceries,783.91,Debit Card,Groceries expense at Local Kirana
+2026-04-04,100013,Swiggy,Food & Dining,656.17,Debit Card,Food & Dining expense at Swiggy
+2026-04-04,100014,Spotify Concert,Entertainment,579.96,UPI,Entertainment expense at Spotify Concert
+2026-04-04,100011,Petrol Pump,Transport,55.22,UPI,Transport expense at Petrol Pump
+2026-04-04,100012,Metro Card Recharge,Transport,214.75,Credit Card,Transport expense at Metro Card Recharge
+2026-04-05,100015,Netflix,Subscriptions,99.0,Credit Card,Netflix monthly subscription
+2026-04-05,100016,Spotify,Subscriptions,149.0,Credit Card,Spotify monthly subscription
+2026-04-05,100017,Amazon Prime,Subscriptions,599.0,Credit Card,Amazon Prime monthly subscription
+2026-04-05,100018,Street Vendor,Food & Dining,513.09,UPI,Food & Dining expense at Street Vendor
+2026-04-05,100019,Myntra,Shopping,2553.15,Cash,Shopping expense at Myntra
+2026-04-05,100020,Uber,Transport,249.08,Debit Card,Transport expense at Uber
+2026-04-06,100021,Zomato,Food & Dining,377.87,UPI,Food & Dining expense at Zomato
+2026-04-07,100022,Gaming Store,Entertainment,309.47,UPI,Entertainment expense at Gaming Store
+2026-04-08,100023,Uber,Transport,114.76,UPI,Transport expense at Uber
+2026-04-08,100024,Metro Card Recharge,Transport,269.04,UPI,Transport expense at Metro Card Recharge
+2026-04-09,100025,Blinkit,Groceries,685.0,UPI,Groceries expense at Blinkit
+2026-04-09,100026,Zomato,Food & Dining,136.55,UPI,Food & Dining expense at Zomato
+2026-04-10,100027,Petrol Pump,Transport,152.12,Cash,Transport expense at Petrol Pump
+2026-04-11,100031,Uber,Transport,192.46,UPI,Transport expense at Uber
+2026-04-11,100030,Zomato,Food & Dining,752.37,UPI,Food & Dining expense at Zomato
+2026-04-11,100028,Apollo Pharmacy,Health,1052.4,UPI,Health expense at Apollo Pharmacy
+2026-04-11,100029,Gaming Store,Entertainment,1067.95,UPI,Entertainment expense at Gaming Store
+2026-04-12,100032,PVR Cinemas,Entertainment,444.91,UPI,Entertainment expense at PVR Cinemas
+2026-04-12,100033,Ajio,Shopping,5180.98,UPI,Shopping expense at Ajio
+2026-04-13,100034,Local Kirana,Groceries,401.42,UPI,Groceries expense at Local Kirana
+2026-04-15,100035,Amazon,Shopping,3429.55,UPI,Shopping expense at Amazon
+2026-04-15,100036,Street Vendor,Food & Dining,255.85,UPI,Food & Dining expense at Street Vendor
+2026-04-15,100037,Cafe Coffee Day,Food & Dining,236.56,UPI,Food & Dining expense at Cafe Coffee Day
+2026-04-16,100038,Myntra,Shopping,2581.44,UPI,Shopping expense at Myntra
+2026-04-16,100039,Metro Card Recharge,Transport,170.19,UPI,Transport expense at Metro Card Recharge
+2026-04-17,100045,DMart,Groceries,349.93,UPI,Groceries expense at DMart
+2026-04-17,100044,Ajio,Shopping,2143.88,UPI,Shopping expense at Ajio
+2026-04-17,100043,Street Vendor,Food & Dining,259.6,UPI,Food & Dining expense at Street Vendor
+2026-04-17,100041,Ola,Transport,52.72,Credit Card,Transport expense at Ola
+2026-04-17,100040,Domino's,Food & Dining,87.78,Credit Card,Food & Dining expense at Domino's
+2026-04-17,100042,Zomato,Food & Dining,398.07,UPI,Food & Dining expense at Zomato
+2026-04-18,100046,DMart,Groceries,1057.03,UPI,Groceries expense at DMart
+2026-04-19,100047,Ola,Transport,158.84,UPI,Transport expense at Ola
+2026-04-19,100048,PVR Cinemas,Entertainment,460.55,UPI,Entertainment expense at PVR Cinemas
+2026-04-19,100049,Local Dhaba,Food & Dining,303.76,UPI,Food & Dining expense at Local Dhaba
+2026-04-20,100050,Ola,Transport,238.69,UPI,Transport expense at Ola
+2026-04-20,100051,Myntra,Shopping,3997.87,Credit Card,Large one-time Shopping purchase
+2026-04-21,100052,Blinkit,Groceries,1057.88,Cash,Groceries expense at Blinkit
+2026-04-22,100053,Local Dhaba,Food & Dining,178.13,Debit Card,Food & Dining expense at Local Dhaba
+2026-04-23,100056,Metro Card Recharge,Transport,48.29,Credit Card,Transport expense at Metro Card Recharge
+2026-04-23,100054,Zepto,Groceries,844.96,UPI,Groceries expense at Zepto
+2026-04-23,100055,Swiggy,Food & Dining,438.42,Credit Card,Food & Dining expense at Swiggy
+2026-04-24,100059,Zomato,Food & Dining,428.39,Credit Card,Food & Dining expense at Zomato
+2026-04-24,100060,Ola,Transport,228.2,UPI,Transport expense at Ola
+2026-04-24,100057,PVR Cinemas,Entertainment,192.66,UPI,Entertainment expense at PVR Cinemas
+2026-04-24,100058,BookMyShow,Entertainment,596.28,Credit Card,Entertainment expense at BookMyShow
+2026-04-25,100062,Local Dhaba,Food & Dining,208.39,UPI,Food & Dining expense at Local Dhaba
+2026-04-25,100063,Apollo Pharmacy,Health,113.04,Credit Card,Health expense at Apollo Pharmacy
+2026-04-25,100061,Metro Card Recharge,Transport,95.36,Credit Card,Transport expense at Metro Card Recharge
+2026-04-26,100064,Cafe Coffee Day,Food & Dining,227.6,Cash,Food & Dining expense at Cafe Coffee Day
+2026-04-27,100065,Gaming Store,Entertainment,363.74,UPI,Entertainment expense at Gaming Store
+2026-04-28,100067,Ola,Transport,330.46,UPI,Transport expense at Ola
+2026-04-28,100066,Street Vendor,Food & Dining,275.71,Credit Card,Food & Dining expense at Street Vendor
+2026-04-28,100067,Ola,Transport,330.46,UPI,Transport expense at Ola
+2026-04-28,100068,Zomato,Food & Dining,354.69,UPI,Food & Dining expense at Zomato
+2026-04-28,100069,Swiggy,Food & Dining,345.52,UPI,Food & Dining expense at Swiggy
+2026-04-29,100070,Local Dhaba,Food & Dining,172.91,Cash,Food & Dining expense at Local Dhaba
+2026-04-29,100071,Street Vendor,Food & Dining,236.72,UPI,Food & Dining expense at Street Vendor
+2026-04-29,100072,Swiggy,Food & Dining,315.73,UPI,Food & Dining expense at Swiggy
+2026-04-29,100073,Ajio,Shopping,2558.14,Credit Card,Shopping expense at Ajio
+2026-04-29,100074,Street Vendor,Food & Dining,414.45,UPI,Food & Dining expense at Street Vendor
+2026-04-30,100075,Uber,Transport,167.53,UPI,Transport expense at Uber
+2026-05-01,100076,House Rent - Landlord,Rent,8000.0,UPI,Monthly rent payment
+2026-05-02,100077,Apollo Pharmacy,Health,1358.49,UPI,Health expense at Apollo Pharmacy
+2026-05-03,100079,Broadband - Jio Fiber,Bills & Utilities,799.0,UPI,Internet bill
+2026-05-03,100080,Local Market,Shopping,5721.38,Cash,Shopping expense at Local Market
+2026-05-03,100081,Swiggy,Food & Dining,752.42,Debit Card,Food & Dining expense at Swiggy
+2026-05-03,100082,Street Vendor,Food & Dining,713.79,UPI,Food & Dining expense at Street Vendor
+2026-05-03,100083,Uber,Transport,115.38,Debit Card,Transport expense at Uber
+2026-05-03,100078,Electricity Board,Bills & Utilities,682.23,UPI,Electricity bill
+2026-05-04,100084,Spotify Concert,Entertainment,316.83,Debit Card,Entertainment expense at Spotify Concert
+2026-05-04,100085,Local Kirana,Groceries,1011.56,Debit Card,Groceries expense at Local Kirana
+2026-05-05,100086,Netflix,Subscriptions,149.0,Credit Card,Netflix monthly subscription
+2026-05-05,100087,Spotify,Subscriptions,99.0,Credit Card,Spotify monthly subscription
+2026-05-05,100088,Amazon Prime,Subscriptions,599.0,Credit Card,Amazon Prime monthly subscription
+2026-05-05,100089,Local Kirana,Groceries,1057.57,,Groceries expense at Local Kirana
+2026-05-06,100093,Domino's,Food & Dining,241.47,,Food & Dining expense at Domino's
+2026-05-06,100094,Cafe Coffee Day,Food & Dining,150.33,UPI,Food & Dining expense at Cafe Coffee Day
+2026-05-06,100091,Zomato,Food & Dining,122.68,,Food & Dining expense at Zomato
+2026-05-06,100090,Petrol Pump,Transport,247.45,Debit Card,Transport expense at Petrol Pump
+2026-05-06,100092,Domino's,Food & Dining,94.16,Credit Card,Food & Dining expense at Domino's
+2026-05-07,100095,Auto Rickshaw,Transport,249.79,Cash,Transport expense at Auto Rickshaw
+2026-05-07,100096,Myntra,Shopping,1465.51,UPI,Shopping expense at Myntra
+2026-05-07,100097,Metro Card Recharge,Transport,229.41,Credit Card,Transport expense at Metro Card Recharge
+2026-05-07,100098,Domino's,Food & Dining,267.64,Credit Card,Food & Dining expense at Domino's
+2026-05-09,100102,Ajio,Shopping,3670.42,UPI,Shopping expense at Ajio
+2026-05-09,100101,Ola,Transport,127.24,UPI,Transport expense at Ola
+2026-05-09,100099,Uber,Transport,164.54,Cash,Transport expense at Uber
+2026-05-09,100100,Uber,Transport,226.96,UPI,Transport expense at Uber
+2026-05-10,100103,Blinkit,Groceries,841.79,UPI,Groceries expense at Blinkit
+2026-05-10,100104,Auto Rickshaw,Transport,137.26,Debit Card,Transport expense at Auto Rickshaw
+2026-05-10,100105,Flipkart,Shopping,1425.95,UPI,Shopping expense at Flipkart
+2026-05-11,100106,BigBasket,Groceries,628.19,Debit Card,Groceries expense at BigBasket
+2026-05-11,100107,Petrol Pump,Transport,188.2,UPI,Transport expense at Petrol Pump
+2026-05-12,100112,Spotify Concert,Entertainment,772.93,UPI,Entertainment expense at Spotify Concert
+2026-05-12,100111,Auto Rickshaw,Transport,220.54,Cash,Transport expense at Auto Rickshaw
+2026-05-12,100109,Ajio,Shopping,1786.56,Credit Card,Shopping expense at Ajio
+2026-05-12,100108,Zomato,Food & Dining,368.02,UPI,Food & Dining expense at Zomato
+2026-05-12,100110,BookMyShow,Entertainment,492.35,Debit Card,Entertainment expense at BookMyShow
+2026-05-13,100113,Local Market,Shopping,1740.22,Debit Card,Shopping expense at Local Market
+2026-05-13,100114,Gaming Store,Entertainment,724.36,UPI,Entertainment expense at Gaming Store
+2026-05-15,100115,Domino's,Food & Dining,166.76,UPI,Food & Dining expense at Domino's
+2026-05-15,100116,BookMyShow,Entertainment,253.78,UPI,Entertainment expense at BookMyShow
+2026-05-16,100117,Amazon,Shopping,2385.12,UPI,Shopping expense at Amazon
+2026-05-16,100118,Local Dhaba,Food & Dining,377.6,Cash,Food & Dining expense at Local Dhaba
+2026-05-16,100119,Cafe Coffee Day,Food & Dining,287.61,UPI,Food & Dining expense at Cafe Coffee Day
+2026-05-17,100120,Spotify Concert,Entertainment,923.14,Debit Card,Entertainment expense at Spotify Concert
+2026-05-17,100121,Spotify Concert,Entertainment,477.49,UPI,Entertainment expense at Spotify Concert
+2026-05-17,100122,Street Vendor,Food & Dining,623.8,Debit Card,Food & Dining expense at Street Vendor
+2026-05-17,100123,BookMyShow,Entertainment,1324.95,Credit Card,Entertainment expense at BookMyShow
+2026-05-17,100124,Local Dhaba,Food & Dining,199.33,UPI,Food & Dining expense at Local Dhaba
+2026-05-18,100127,Cafe Coffee Day,Food & Dining,99.27,Cash,Food & Dining expense at Cafe Coffee Day
+2026-05-18,100125,Domino's,Food & Dining,204.88,Debit Card,Food & Dining expense at Domino's
+2026-05-18,100126,Local Dhaba,Food & Dining,173.34,,Food & Dining expense at Local Dhaba
+2026-05-19,100128,Street Vendor,Food & Dining,94.9,UPI,Food & Dining expense at Street Vendor
+2026-05-20,100130,Swiggy,Food & Dining,252.06,UPI,Food & Dining expense at Swiggy
+2026-05-20,100129,PVR Cinemas,Entertainment,328.91,UPI,Entertainment expense at PVR Cinemas
+2026-05-22,100132,Cafe Coffee Day,Food & Dining,89.5,UPI,Food & Dining expense at Cafe Coffee Day
+2026-05-22,100131,Apollo Pharmacy,Health,1188.91,UPI,Health expense at Apollo Pharmacy
+2026-05-23,100133,1mg,Health,1418.06,UPI,Health expense at 1mg
+2026-05-23,100134,Uber,Transport,62.61,Debit Card,Transport expense at Uber
+2026-05-23,100135,BookMyShow,Entertainment,1182.74,UPI,Entertainment expense at BookMyShow
+2026-05-24,100136,Ola,Transport,191.91,UPI,Transport expense at Ola
+2026-05-24,100137,Spotify Concert,Entertainment,407.98,Credit Card,Entertainment expense at Spotify Concert
+2026-05-24,100138,PVR Cinemas,Entertainment,794.48,Cash,Entertainment expense at PVR Cinemas
+2026-05-24,100139,Cafe Coffee Day,Food & Dining,561.82,Debit Card,Food & Dining expense at Cafe Coffee Day
+2026-05-25,100140,Swiggy,Food & Dining,387.37,UPI,Food & Dining expense at Swiggy
+2026-05-26,100144,Flipkart,Shopping,2078.53,UPI,Shopping expense at Flipkart
+2026-05-26,100141,Local Dhaba,Food & Dining,290.84,Credit Card,Food & Dining expense at Local Dhaba
+2026-05-26,100142,Local Dhaba,Food & Dining,394.85,UPI,Food & Dining expense at Local Dhaba
+2026-05-26,100143,Domino's,Food & Dining,205.93,Debit Card,Food & Dining expense at Domino's
+2026-05-27,100145,Local Dhaba,Food & Dining,260.77,Debit Card,Food & Dining expense at Local Dhaba
+2026-05-27,100146,Petrol Pump,Transport,173.42,UPI,Transport expense at Petrol Pump
+2026-05-28,100147,Blinkit,Groceries,471.52,Credit Card,Groceries expense at Blinkit
+2026-05-28,100148,Zepto,Groceries,510.95,Cash,Groceries expense at Zepto
+2026-05-28,100149,Metro Card Recharge,Transport,254.91,UPI,Transport expense at Metro Card Recharge
+2026-05-28,100150,Zomato,Food & Dining,346.88,UPI,Food & Dining expense at Zomato
+2026-05-29,100155,Zomato,Food & Dining,284.74,Credit Card,Food & Dining expense at Zomato
+2026-05-29,100151,Local Clinic,Health,368.16,Credit Card,Health expense at Local Clinic
+2026-05-29,100152,Cafe Coffee Day,Food & Dining,441.34,UPI,Food & Dining expense at Cafe Coffee Day
+2026-05-29,100153,Zomato,Food & Dining,388.07,UPI,Food & Dining expense at Zomato
+2026-05-29,100154,Local Kirana,Groceries,164.86,UPI,Groceries expense at Local Kirana
+2026-05-30,100158,1mg,Health,259.72,UPI,Health expense at 1mg
+2026-05-30,100156,Spotify Concert,Entertainment,296.41,UPI,Entertainment expense at Spotify Concert
+2026-05-30,100157,Local Kirana,Groceries,343.58,UPI,Groceries expense at Local Kirana
+2026-05-31,100159,Ola,Transport,78.55,Debit Card,Transport expense at Ola
+2026-05-31,100160,Apollo Pharmacy,Health,1491.49,UPI,Health expense at Apollo Pharmacy
+2026-06-01,100161,House Rent - Landlord,Rent,8000.0,UPI,Monthly rent payment
+2026-06-01,100162,Auto Rickshaw,Transport,102.22,UPI,Transport expense at Auto Rickshaw
+2026-06-02,100163,Zepto,Groceries,1189.53,UPI,Groceries expense at Zepto
+2026-06-02,100164,Auto Rickshaw,Transport,337.23,UPI,Transport expense at Auto Rickshaw
+2026-06-03,100165,Electricity Board,Bills & Utilities,1100.41,UPI,Electricity bill
+2026-06-03,100166,Broadband - Jio Fiber,Bills & Utilities,799.0,UPI,Internet bill
+2026-06-03,100167,Zomato,Food & Dining,138.11,UPI,Food & Dining expense at Zomato
+2026-06-03,100168,Zomato,Food & Dining,231.15,Credit Card,Food & Dining expense at Zomato
+2026-06-04,100172,Metro Card Recharge,Transport,294.52,UPI,Transport expense at Metro Card Recharge
+2026-06-04,100173,Domino's,Food & Dining,300.17,Debit Card,Food & Dining expense at Domino's
+2026-06-04,100170,Blinkit,Groceries,1120.11,Debit Card,Groceries expense at Blinkit
+2026-06-04,100169,Domino's,Food & Dining,341.57,Credit Card,Food & Dining expense at Domino's
+2026-06-04,100171,Uber,Transport,166.04,UPI,Transport expense at Uber
+2026-06-05,100174,Netflix,Subscriptions,199.0,Credit Card,Netflix monthly subscription
+2026-06-05,100175,Spotify,Subscriptions,99.0,Credit Card,Spotify monthly subscription
+2026-06-05,100176,Amazon Prime,Subscriptions,599.0,Credit Card,Amazon Prime monthly subscription
+2026-06-05,100177,Local Kirana,Groceries,884.72,Cash,Groceries expense at Local Kirana
+2026-06-06,100183,DMart,Groceries,499.97,Credit Card,Groceries expense at DMart
+2026-06-06,100182,Cafe Coffee Day,Food & Dining,411.89,Cash,Food & Dining expense at Cafe Coffee Day
+2026-06-06,100180,BookMyShow,Entertainment,1472.0,UPI,Entertainment expense at BookMyShow
+2026-06-06,100179,Ajio,Shopping,1481.82,Cash,Shopping expense at Ajio
+2026-06-06,100178,BigBasket,Groceries,777.94,Debit Card,Groceries expense at BigBasket
+2026-06-06,100181,Swiggy,Food & Dining,413.09,Cash,Food & Dining expense at Swiggy
+2026-06-07,100184,Street Vendor,Food & Dining,429.55,UPI,Food & Dining expense at Street Vendor
+2026-06-07,100185,Amazon,Shopping,2558.13,UPI,Shopping expense at Amazon
+2026-06-07,100186,1mg,Health,1310.87,Debit Card,Health expense at 1mg
+2026-06-07,100187,Cafe Coffee Day,Food & Dining,333.01,UPI,Food & Dining expense at Cafe Coffee Day
+2026-06-09,100190,PVR Cinemas,Entertainment,7258.7,Credit Card,Large one-time Entertainment purchase
+2026-06-09,100189,1mg,Health,1333.19,UPI,Health expense at 1mg
+2026-06-09,100188,BigBasket,Groceries,363.74,UPI,Groceries expense at BigBasket
+2026-06-10,100191,Zomato,Food & Dining,284.33,UPI,Food & Dining expense at Zomato
+2026-06-10,100192,Apollo Pharmacy,Health,746.03,UPI,Health expense at Apollo Pharmacy
+2026-06-10,100193,Spotify Concert,Entertainment,849.49,UPI,Entertainment expense at Spotify Concert
+2026-06-11,100194,DMart,Groceries,1179.26,UPI,Groceries expense at DMart
+2026-06-11,100195,Petrol Pump,Transport,91.0,Credit Card,Transport expense at Petrol Pump
+2026-06-11,100196,Myntra,Shopping,3064.89,UPI,Shopping expense at Myntra
+2026-06-11,100197,Local Market,Shopping,1387.6,Debit Card,Shopping expense at Local Market
+2026-06-11,100198,Zomato,Food & Dining,184.65,UPI,Food & Dining expense at Zomato
+2026-06-12,100199,1mg,Health,1311.36,UPI,Health expense at 1mg
+2026-06-12,100200,Local Kirana,Groceries,729.51,UPI,Groceries expense at Local Kirana
+2026-06-13,100205,Local Dhaba,Food & Dining,205.17,UPI,Food & Dining expense at Local Dhaba
+2026-06-13,100204,Zomato,Food & Dining,225.88,UPI,Food & Dining expense at Zomato
+2026-06-13,100201,Swiggy,Food & Dining,628.64,UPI,Food & Dining expense at Swiggy
+2026-06-13,100202,Spotify Concert,Entertainment,305.61,Credit Card,Entertainment expense at Spotify Concert
+2026-06-13,100203,Local Market,Shopping,5873.79,Credit Card,Shopping expense at Local Market
+2026-06-14,100206,PVR Cinemas,Entertainment,348.5,UPI,Entertainment expense at PVR Cinemas
+2026-06-14,100207,Petrol Pump,Transport,237.95,Debit Card,Transport expense at Petrol Pump
+2026-06-14,100208,Spotify Concert,Entertainment,1396.56,Debit Card,Entertainment expense at Spotify Concert
+2026-06-14,100209,Zepto,Groceries,187.69,UPI,Groceries expense at Zepto
+2026-06-14,100210,Metro Card Recharge,Transport,349.18,Credit Card,Transport expense at Metro Card Recharge
+2026-06-15,100213,Flipkart,Shopping,1447.08,UPI,Shopping expense at Flipkart
+2026-06-15,100211,Street Vendor,Food & Dining,340.44,UPI,Food & Dining expense at Street Vendor
+2026-06-15,100212,Domino's,Food & Dining,414.27,UPI,Food & Dining expense at Domino's
+2026-06-15,100211,Street Vendor,Food & Dining,340.44,UPI,Food & Dining expense at Street Vendor
+2026-06-16,100214,Blinkit,Groceries,328.48,UPI,Groceries expense at Blinkit
+2026-06-16,100215,PVR Cinemas,Entertainment,523.25,Credit Card,Entertainment expense at PVR Cinemas
+2026-06-16,100216,Street Vendor,Food & Dining,173.97,UPI,Food & Dining expense at Street Vendor
+2026-06-16,100217,Local Dhaba,Food & Dining,413.45,Credit Card,Food & Dining expense at Local Dhaba
+2026-06-16,100218,Local Dhaba,Food & Dining,429.74,Cash,Food & Dining expense at Local Dhaba
+2026-06-16,100219,Local Dhaba,Food & Dining,335.42,UPI,Food & Dining expense at Local Dhaba
+2026-06-17,100223,Ola,Transport,321.4,Credit Card,Transport expense at Ola
+2026-06-17,100221,Local Kirana,Groceries,1192.33,UPI,Groceries expense at Local Kirana
+2026-06-17,100220,1mg,Health,249.31,UPI,Health expense at 1mg
+2026-06-17,100222,1mg,Health,484.27,Credit Card,Health expense at 1mg
+2026-06-18,100224,PVR Cinemas,Entertainment,605.3,UPI,Entertainment expense at PVR Cinemas
+2026-06-19,100225,Uber,Transport,231.04,Cash,Transport expense at Uber
+2026-06-20,100226,Local Dhaba,Food & Dining,136.89,,Food & Dining expense at Local Dhaba
+2026-06-20,100227,Gaming Store,Entertainment,986.2,UPI,Entertainment expense at Gaming Store
+2026-06-20,100228,Metro Card Recharge,Transport,199.87,Cash,Transport expense at Metro Card Recharge
+2026-06-20,100229,Gaming Store,Entertainment,1480.66,Cash,Entertainment expense at Gaming Store
+2026-06-21,100230,BookMyShow,Entertainment,670.5,Debit Card,Entertainment expense at BookMyShow
+2026-06-21,100231,Street Vendor,Food & Dining,622.84,Cash,Food & Dining expense at Street Vendor
+2026-06-22,100232,DMart,Groceries,164.61,UPI,Groceries expense at DMart
+2026-06-23,100234,Apollo Pharmacy,Health,1044.77,UPI,Health expense at Apollo Pharmacy
+2026-06-23,100233,Metro Card Recharge,Transport,217.06,Debit Card,Transport expense at Metro Card Recharge
+2026-06-26,100235,Ola,Transport,233.33,UPI,Transport expense at Ola
+2026-06-26,100239,Ajio,Shopping,1641.21,Credit Card,Shopping expense at Ajio
+2026-06-26,100237,Local Dhaba,Food & Dining,122.96,UPI,Food & Dining expense at Local Dhaba
+2026-06-26,100236,Local Market,Shopping,673.36,UPI,Shopping expense at Local Market
+2026-06-26,100238,Petrol Pump,Transport,175.17,Credit Card,Transport expense at Petrol Pump
+2026-06-27,100240,BigBasket,Groceries,1025.38,Credit Card,Groceries expense at BigBasket
+2026-06-27,100241,Gym Membership,Health,145.8,UPI,Health expense at Gym Membership
+2026-06-27,100242,Blinkit,Groceries,1048.22,UPI,Groceries expense at Blinkit
+2026-06-27,100243,Auto Rickshaw,Transport,318.54,Credit Card,Transport expense at Auto Rickshaw
+2026-06-29,100244,1mg,Health,228.34,UPI,Health expense at 1mg
+2026-06-29,100245,Ola,Transport,46.19,UPI,Transport expense at Ola
+2026-06-29,100246,Local Clinic,Health,196.05,Debit Card,Health expense at Local Clinic
+2026-06-29,100247,Swiggy,Food & Dining,380.83,UPI,Food & Dining expense at Swiggy
+2026-06-30,100248,Ajio,Shopping,309.07,Debit Card,Shopping expense at Ajio
+2026-06-30,100248,Ajio,Shopping,309.07,Debit Card,Shopping expense at Ajio
