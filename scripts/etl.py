@@ -147,21 +147,29 @@ def create_spending_tiers(df):
     return df
 
 def detect_anomalies(df):
-    """Flag unusually high transaction amounts using the IQR method."""
+    """Flag unusually high transactions within each spending category."""
 
-    q1 = df["amount"].quantile(0.25)
-    q3 = df["amount"].quantile(0.75)
+    minimum_group_size = 5
 
-    iqr = q3 - q1
-    upper_bound = q3 + (1.5 * iqr)
+    category_stats = df.groupby("category")["amount"].transform(
+        lambda amounts: (
+            amounts.quantile(0.75)
+            + 1.5 * (
+                amounts.quantile(0.75)
+                - amounts.quantile(0.25)
+            )
+            if len(amounts) >= minimum_group_size
+            else float("inf")
+        )
+    )
 
-    df["is_anomaly"] = df["amount"] > upper_bound
+    df["is_anomaly"] = df["amount"] > category_stats
 
     anomaly_count = df["is_anomaly"].sum()
 
     print(
         f"Flagged {anomaly_count} anomalous transactions "
-        f"above ₹{upper_bound:.2f}."
+        "using category-level IQR."
     )
 
     return df

@@ -47,8 +47,8 @@ Investigates high-value outlier transactions and measures their contribution to 
 - Total spending reached **₹190,587.01 across 249 processed transactions**.
 - Monthly spending increased **11.11% in May** and accelerated by **19.78% in June**.
 - **Shopping contributed 32.09% of total expenditure**, making it the largest spending category.
-- Only **20 anomalous transactions accounted for 43.33% of total spend**.
-- Anomalous transactions averaged **₹4,129.14**, compared with **₹471.63 for normal transactions**.
+- Only **6 category-level anomalies accounted for 11.06% of total spend**.
+- Anomalous transactions averaged **₹3,512.08**, compared with **₹697.59 for normal transactions**.
 - Weekend transactions averaged **₹835.13**, higher than the weekday average of **₹727.30**.
 - The **Very High spending tier represented 21.29% of transactions but generated 65.12% of total spending**.
 - Shopping remained the highest-ranked category each month, while Entertainment and Groceries became stronger spending drivers in June.
@@ -65,7 +65,7 @@ The Python ETL pipeline in `scripts/etl.py` performs:
 6. Text standardization
 7. Date-based feature engineering
 8. Spending tier classification
-9. IQR-based anomaly detection
+9. Category-level IQR anomaly detection
 10. Processed CSV export
 11. MySQL database loading
 12. Database row-count verification
@@ -85,7 +85,7 @@ The ETL process creates analytical features including:
 - Spending tier
 - Anomaly flag
 
-Anomalous transactions are identified using the **Interquartile Range (IQR) method**.
+Anomalous transactions are identified using **category-level Interquartile Range (IQR) detection**. Transactions are evaluated within their spending category rather than against the global transaction distribution. Categories with fewer than five observations are excluded from anomaly flagging to reduce unreliable classifications from sparse groups.
 
 ## SQL Analysis
 
@@ -214,4 +214,4 @@ FinPulse follows a three-stage analytical narrative:
 
 **Spending Overview → Spending Behaviour → Anomaly Analysis**
 
-The report first identifies overall financial trends, then explores behavioural spending patterns, and finally investigates the high-value transactions driving disproportionate spending impact.
+The report first identifies overall financial trends, then explores behavioural spending patterns, and finally investigates unusually high transactions relative to their spending categories.

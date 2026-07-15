@@ -1,5 +1,5 @@
 date,transaction_id,merchant,category,amount,payment_mode,description,year,month,month_number,day,weekday,is_weekend,spending_tier,is_anomaly
-2026-04-01,100000,House Rent - Landlord,Rent,8000.0,UPI,Monthly rent payment,2026,April,4,1,Wednesday,False,Very High,True
+2026-04-01,100000,House Rent - Landlord,Rent,8000.0,UPI,Monthly rent payment,2026,April,4,1,Wednesday,False,Very High,False
 2026-04-01,100001,Ola,Transport,267.3,UPI,Transport expense at Ola,2026,April,4,1,Wednesday,False,Medium,False
 2026-04-01,100002,Zomato,Food & Dining,330.38,Debit Card,Food & Dining expense at Zomato,2026,April,4,1,Wednesday,False,Medium,False
 2026-04-01,100003,Local Dhaba,Food & Dining,91.76,UPI,Food & Dining expense at Local Dhaba,2026,April,4,1,Wednesday,False,Low,False
@@ -18,7 +18,7 @@ date,transaction_id,merchant,category,amount,payment_mode,description,year,month
 2026-04-05,100016,Spotify,Subscriptions,149.0,Credit Card,Spotify monthly subscription,2026,April,4,5,Sunday,True,Low,False
 2026-04-05,100017,Amazon Prime,Subscriptions,599.0,Credit Card,Amazon Prime monthly subscription,2026,April,4,5,Sunday,True,High,False
 2026-04-05,100018,Street Vendor,Food & Dining,513.09,UPI,Food & Dining expense at Street Vendor,2026,April,4,5,Sunday,True,High,False
-2026-04-05,100019,Myntra,Shopping,2553.15,Cash,Shopping expense at Myntra,2026,April,4,5,Sunday,True,Very High,True
+2026-04-05,100019,Myntra,Shopping,2553.15,Cash,Shopping expense at Myntra,2026,April,4,5,Sunday,True,Very High,False
 2026-04-05,100020,Uber,Transport,249.08,Debit Card,Transport expense at Uber,2026,April,4,5,Sunday,True,Medium,False
 2026-04-06,100021,Zomato,Food & Dining,377.87,UPI,Food & Dining expense at Zomato,2026,April,4,6,Monday,False,Medium,False
 2026-04-07,100022,Gaming Store,Entertainment,309.47,UPI,Entertainment expense at Gaming Store,2026,April,4,7,Tuesday,False,Medium,False
@@ -28,19 +28,19 @@ date,transaction_id,merchant,category,amount,payment_mode,description,year,month
 2026-04-09,100026,Zomato,Food & Dining,136.55,UPI,Food & Dining expense at Zomato,2026,April,4,9,Thursday,False,Low,False
 2026-04-10,100027,Petrol Pump,Transport,152.12,Cash,Transport expense at Petrol Pump,2026,April,4,10,Friday,False,Low,False
 2026-04-11,100031,Uber,Transport,192.46,UPI,Transport expense at Uber,2026,April,4,11,Saturday,True,Low,False
-2026-04-11,100030,Zomato,Food & Dining,752.37,UPI,Food & Dining expense at Zomato,2026,April,4,11,Saturday,True,High,False
+2026-04-11,100030,Zomato,Food & Dining,752.37,UPI,Food & Dining expense at Zomato,2026,April,4,11,Saturday,True,High,True
 2026-04-11,100028,Apollo Pharmacy,Health,1052.4,UPI,Health expense at Apollo Pharmacy,2026,April,4,11,Saturday,True,Very High,False
 2026-04-11,100029,Gaming Store,Entertainment,1067.95,UPI,Entertainment expense at Gaming Store,2026,April,4,11,Saturday,True,Very High,False
 2026-04-12,100032,PVR Cinemas,Entertainment,444.91,UPI,Entertainment expense at PVR Cinemas,2026,April,4,12,Sunday,True,Medium,False
-2026-04-12,100033,Ajio,Shopping,5180.98,UPI,Shopping expense at Ajio,2026,April,4,12,Sunday,True,Very High,True
+2026-04-12,100033,Ajio,Shopping,5180.98,UPI,Shopping expense at Ajio,2026,April,4,12,Sunday,True,Very High,False
 2026-04-13,100034,Local Kirana,Groceries,401.42,UPI,Groceries expense at Local Kirana,2026,April,4,13,Monday,False,Medium,False
-2026-04-15,100035,Amazon,Shopping,3429.55,UPI,Shopping expense at Amazon,2026,April,4,15,Wednesday,False,Very High,True
+2026-04-15,100035,Amazon,Shopping,3429.55,UPI,Shopping expense at Amazon,2026,April,4,15,Wednesday,False,Very High,False
 2026-04-15,100036,Street Vendor,Food & Dining,255.85,UPI,Food & Dining expense at Street Vendor,2026,April,4,15,Wednesday,False,Medium,False
 2026-04-15,100037,Cafe Coffee Day,Food & Dining,236.56,UPI,Food & Dining expense at Cafe Coffee Day,2026,April,4,15,Wednesday,False,Medium,False
-2026-04-16,100038,Myntra,Shopping,2581.44,UPI,Shopping expense at Myntra,2026,April,4,16,Thursday,False,Very High,True
+2026-04-16,100038,Myntra,Shopping,2581.44,UPI,Shopping expense at Myntra,2026,April,4,16,Thursday,False,Very High,False
 2026-04-16,100039,Metro Card Recharge,Transport,170.19,UPI,Transport expense at Metro Card Recharge,2026,April,4,16,Thursday,False,Low,False
 2026-04-17,100045,DMart,Groceries,349.93,UPI,Groceries expense at DMart,2026,April,4,17,Friday,False,Medium,False
-2026-04-17,100044,Ajio,Shopping,2143.88,UPI,Shopping expense at Ajio,2026,April,4,17,Friday,False,Very High,True
+2026-04-17,100044,Ajio,Shopping,2143.88,UPI,Shopping expense at Ajio,2026,April,4,17,Friday,False,Very High,False
 2026-04-17,100043,Street Vendor,Food & Dining,259.6,UPI,Food & Dining expense at Street Vendor,2026,April,4,17,Friday,False,Medium,False
 2026-04-17,100041,Ola,Transport,52.72,Credit Card,Transport expense at Ola,2026,April,4,17,Friday,False,Low,False
 2026-04-17,100040,Domino's,Food & Dining,87.78,Credit Card,Food & Dining expense at Domino's,2026,April,4,17,Friday,False,Low,False
@@ -50,7 +50,7 @@ date,transaction_id,merchant,category,amount,payment_mode,description,year,month
 2026-04-19,100048,PVR Cinemas,Entertainment,460.55,UPI,Entertainment expense at PVR Cinemas,2026,April,4,19,Sunday,True,Medium,False
 2026-04-19,100049,Local Dhaba,Food & Dining,303.76,UPI,Food & Dining expense at Local Dhaba,2026,April,4,19,Sunday,True,Medium,False
 2026-04-20,100050,Ola,Transport,238.69,UPI,Transport expense at Ola,2026,April,4,20,Monday,False,Medium,False
-2026-04-20,100051,Myntra,Shopping,3997.87,Credit Card,Large one-time Shopping purchase,2026,April,4,20,Monday,False,Very High,True
+2026-04-20,100051,Myntra,Shopping,3997.87,Credit Card,Large one-time Shopping purchase,2026,April,4,20,Monday,False,Very High,False
 2026-04-21,100052,Blinkit,Groceries,1057.88,Cash,Groceries expense at Blinkit,2026,April,4,21,Tuesday,False,Very High,False
 2026-04-22,100053,Local Dhaba,Food & Dining,178.13,Debit Card,Food & Dining expense at Local Dhaba,2026,April,4,22,Wednesday,False,Low,False
 2026-04-23,100056,Metro Card Recharge,Transport,48.29,Credit Card,Transport expense at Metro Card Recharge,2026,April,4,23,Thursday,False,Low,False
@@ -72,15 +72,15 @@ date,transaction_id,merchant,category,amount,payment_mode,description,year,month
 2026-04-29,100070,Local Dhaba,Food & Dining,172.91,Cash,Food & Dining expense at Local Dhaba,2026,April,4,29,Wednesday,False,Low,False
 2026-04-29,100071,Street Vendor,Food & Dining,236.72,UPI,Food & Dining expense at Street Vendor,2026,April,4,29,Wednesday,False,Medium,False
 2026-04-29,100072,Swiggy,Food & Dining,315.73,UPI,Food & Dining expense at Swiggy,2026,April,4,29,Wednesday,False,Medium,False
-2026-04-29,100073,Ajio,Shopping,2558.14,Credit Card,Shopping expense at Ajio,2026,April,4,29,Wednesday,False,Very High,True
+2026-04-29,100073,Ajio,Shopping,2558.14,Credit Card,Shopping expense at Ajio,2026,April,4,29,Wednesday,False,Very High,False
 2026-04-29,100074,Street Vendor,Food & Dining,414.45,UPI,Food & Dining expense at Street Vendor,2026,April,4,29,Wednesday,False,Medium,False
 2026-04-30,100075,Uber,Transport,167.53,UPI,Transport expense at Uber,2026,April,4,30,Thursday,False,Low,False
-2026-05-01,100076,House Rent - Landlord,Rent,8000.0,UPI,Monthly rent payment,2026,May,5,1,Friday,False,Very High,True
+2026-05-01,100076,House Rent - Landlord,Rent,8000.0,UPI,Monthly rent payment,2026,May,5,1,Friday,False,Very High,False
 2026-05-02,100077,Apollo Pharmacy,Health,1358.49,UPI,Health expense at Apollo Pharmacy,2026,May,5,2,Saturday,True,Very High,False
 2026-05-03,100079,Broadband - Jio Fiber,Bills & Utilities,799.0,UPI,Internet bill,2026,May,5,3,Sunday,True,High,False
 2026-05-03,100080,Local Market,Shopping,5721.38,Cash,Shopping expense at Local Market,2026,May,5,3,Sunday,True,Very High,True
-2026-05-03,100081,Swiggy,Food & Dining,752.42,Debit Card,Food & Dining expense at Swiggy,2026,May,5,3,Sunday,True,High,False
-2026-05-03,100082,Street Vendor,Food & Dining,713.79,UPI,Food & Dining expense at Street Vendor,2026,May,5,3,Sunday,True,High,False
+2026-05-03,100081,Swiggy,Food & Dining,752.42,Debit Card,Food & Dining expense at Swiggy,2026,May,5,3,Sunday,True,High,True
+2026-05-03,100082,Street Vendor,Food & Dining,713.79,UPI,Food & Dining expense at Street Vendor,2026,May,5,3,Sunday,True,High,True
 2026-05-03,100083,Uber,Transport,115.38,Debit Card,Transport expense at Uber,2026,May,5,3,Sunday,True,Low,False
 2026-05-03,100078,Electricity Board,Bills & Utilities,682.23,UPI,Electricity bill,2026,May,5,3,Sunday,True,High,False
 2026-05-04,100084,Spotify Concert,Entertainment,316.83,Debit Card,Entertainment expense at Spotify Concert,2026,May,5,4,Monday,False,Medium,False
@@ -98,7 +98,7 @@ date,transaction_id,merchant,category,amount,payment_mode,description,year,month
 2026-05-07,100096,Myntra,Shopping,1465.51,UPI,Shopping expense at Myntra,2026,May,5,7,Thursday,False,Very High,False
 2026-05-07,100097,Metro Card Recharge,Transport,229.41,Credit Card,Transport expense at Metro Card Recharge,2026,May,5,7,Thursday,False,Medium,False
 2026-05-07,100098,Domino's,Food & Dining,267.64,Credit Card,Food & Dining expense at Domino's,2026,May,5,7,Thursday,False,Medium,False
-2026-05-09,100102,Ajio,Shopping,3670.42,UPI,Shopping expense at Ajio,2026,May,5,9,Saturday,True,Very High,True
+2026-05-09,100102,Ajio,Shopping,3670.42,UPI,Shopping expense at Ajio,2026,May,5,9,Saturday,True,Very High,False
 2026-05-09,100101,Ola,Transport,127.24,UPI,Transport expense at Ola,2026,May,5,9,Saturday,True,Low,False
 2026-05-09,100099,Uber,Transport,164.54,Cash,Transport expense at Uber,2026,May,5,9,Saturday,True,Low,False
 2026-05-09,100100,Uber,Transport,226.96,UPI,Transport expense at Uber,2026,May,5,9,Saturday,True,Medium,False
@@ -109,14 +109,14 @@ date,transaction_id,merchant,category,amount,payment_mode,description,year,month
 2026-05-11,100107,Petrol Pump,Transport,188.2,UPI,Transport expense at Petrol Pump,2026,May,5,11,Monday,False,Low,False
 2026-05-12,100112,Spotify Concert,Entertainment,772.93,UPI,Entertainment expense at Spotify Concert,2026,May,5,12,Tuesday,False,High,False
 2026-05-12,100111,Auto Rickshaw,Transport,220.54,Cash,Transport expense at Auto Rickshaw,2026,May,5,12,Tuesday,False,Medium,False
-2026-05-12,100109,Ajio,Shopping,1786.56,Credit Card,Shopping expense at Ajio,2026,May,5,12,Tuesday,False,Very High,True
+2026-05-12,100109,Ajio,Shopping,1786.56,Credit Card,Shopping expense at Ajio,2026,May,5,12,Tuesday,False,Very High,False
 2026-05-12,100108,Zomato,Food & Dining,368.02,UPI,Food & Dining expense at Zomato,2026,May,5,12,Tuesday,False,Medium,False
 2026-05-12,100110,BookMyShow,Entertainment,492.35,Debit Card,Entertainment expense at BookMyShow,2026,May,5,12,Tuesday,False,Medium,False
-2026-05-13,100113,Local Market,Shopping,1740.22,Debit Card,Shopping expense at Local Market,2026,May,5,13,Wednesday,False,Very High,True
+2026-05-13,100113,Local Market,Shopping,1740.22,Debit Card,Shopping expense at Local Market,2026,May,5,13,Wednesday,False,Very High,False
 2026-05-13,100114,Gaming Store,Entertainment,724.36,UPI,Entertainment expense at Gaming Store,2026,May,5,13,Wednesday,False,High,False
 2026-05-15,100115,Domino's,Food & Dining,166.76,UPI,Food & Dining expense at Domino's,2026,May,5,15,Friday,False,Low,False
 2026-05-15,100116,BookMyShow,Entertainment,253.78,UPI,Entertainment expense at BookMyShow,2026,May,5,15,Friday,False,Medium,False
-2026-05-16,100117,Amazon,Shopping,2385.12,UPI,Shopping expense at Amazon,2026,May,5,16,Saturday,True,Very High,True
+2026-05-16,100117,Amazon,Shopping,2385.12,UPI,Shopping expense at Amazon,2026,May,5,16,Saturday,True,Very High,False
 2026-05-16,100118,Local Dhaba,Food & Dining,377.6,Cash,Food & Dining expense at Local Dhaba,2026,May,5,16,Saturday,True,Medium,False
 2026-05-16,100119,Cafe Coffee Day,Food & Dining,287.61,UPI,Food & Dining expense at Cafe Coffee Day,2026,May,5,16,Saturday,True,Medium,False
 2026-05-17,100120,Spotify Concert,Entertainment,923.14,Debit Card,Entertainment expense at Spotify Concert,2026,May,5,17,Sunday,True,High,False
@@ -140,7 +140,7 @@ date,transaction_id,merchant,category,amount,payment_mode,description,year,month
 2026-05-24,100138,PVR Cinemas,Entertainment,794.48,Cash,Entertainment expense at PVR Cinemas,2026,May,5,24,Sunday,True,High,False
 2026-05-24,100139,Cafe Coffee Day,Food & Dining,561.82,Debit Card,Food & Dining expense at Cafe Coffee Day,2026,May,5,24,Sunday,True,High,False
 2026-05-25,100140,Swiggy,Food & Dining,387.37,UPI,Food & Dining expense at Swiggy,2026,May,5,25,Monday,False,Medium,False
-2026-05-26,100144,Flipkart,Shopping,2078.53,UPI,Shopping expense at Flipkart,2026,May,5,26,Tuesday,False,Very High,True
+2026-05-26,100144,Flipkart,Shopping,2078.53,UPI,Shopping expense at Flipkart,2026,May,5,26,Tuesday,False,Very High,False
 2026-05-26,100141,Local Dhaba,Food & Dining,290.84,Credit Card,Food & Dining expense at Local Dhaba,2026,May,5,26,Tuesday,False,Medium,False
 2026-05-26,100142,Local Dhaba,Food & Dining,394.85,UPI,Food & Dining expense at Local Dhaba,2026,May,5,26,Tuesday,False,Medium,False
 2026-05-26,100143,Domino's,Food & Dining,205.93,Debit Card,Food & Dining expense at Domino's,2026,May,5,26,Tuesday,False,Medium,False
@@ -160,7 +160,7 @@ date,transaction_id,merchant,category,amount,payment_mode,description,year,month
 2026-05-30,100157,Local Kirana,Groceries,343.58,UPI,Groceries expense at Local Kirana,2026,May,5,30,Saturday,True,Medium,False
 2026-05-31,100159,Ola,Transport,78.55,Debit Card,Transport expense at Ola,2026,May,5,31,Sunday,True,Low,False
 2026-05-31,100160,Apollo Pharmacy,Health,1491.49,UPI,Health expense at Apollo Pharmacy,2026,May,5,31,Sunday,True,Very High,False
-2026-06-01,100161,House Rent - Landlord,Rent,8000.0,UPI,Monthly rent payment,2026,June,6,1,Monday,False,Very High,True
+2026-06-01,100161,House Rent - Landlord,Rent,8000.0,UPI,Monthly rent payment,2026,June,6,1,Monday,False,Very High,False
 2026-06-01,100162,Auto Rickshaw,Transport,102.22,UPI,Transport expense at Auto Rickshaw,2026,June,6,1,Monday,False,Low,False
 2026-06-02,100163,Zepto,Groceries,1189.53,UPI,Groceries expense at Zepto,2026,June,6,2,Tuesday,False,Very High,False
 2026-06-02,100164,Auto Rickshaw,Transport,337.23,UPI,Transport expense at Auto Rickshaw,2026,June,6,2,Tuesday,False,Medium,False
@@ -184,7 +184,7 @@ date,transaction_id,merchant,category,amount,payment_mode,description,year,month
 2026-06-06,100178,BigBasket,Groceries,777.94,Debit Card,Groceries expense at BigBasket,2026,June,6,6,Saturday,True,High,False
 2026-06-06,100181,Swiggy,Food & Dining,413.09,Cash,Food & Dining expense at Swiggy,2026,June,6,6,Saturday,True,Medium,False
 2026-06-07,100184,Street Vendor,Food & Dining,429.55,UPI,Food & Dining expense at Street Vendor,2026,June,6,7,Sunday,True,Medium,False
-2026-06-07,100185,Amazon,Shopping,2558.13,UPI,Shopping expense at Amazon,2026,June,6,7,Sunday,True,Very High,True
+2026-06-07,100185,Amazon,Shopping,2558.13,UPI,Shopping expense at Amazon,2026,June,6,7,Sunday,True,Very High,False
 2026-06-07,100186,1mg,Health,1310.87,Debit Card,Health expense at 1mg,2026,June,6,7,Sunday,True,Very High,False
 2026-06-07,100187,Cafe Coffee Day,Food & Dining,333.01,UPI,Food & Dining expense at Cafe Coffee Day,2026,June,6,7,Sunday,True,Medium,False
 2026-06-09,100190,PVR Cinemas,Entertainment,7258.7,Credit Card,Large one-time Entertainment purchase,2026,June,6,9,Tuesday,False,Very High,True
@@ -195,7 +195,7 @@ date,transaction_id,merchant,category,amount,payment_mode,description,year,month
 2026-06-10,100193,Spotify Concert,Entertainment,849.49,UPI,Entertainment expense at Spotify Concert,2026,June,6,10,Wednesday,False,High,False
 2026-06-11,100194,DMart,Groceries,1179.26,UPI,Groceries expense at DMart,2026,June,6,11,Thursday,False,Very High,False
 2026-06-11,100195,Petrol Pump,Transport,91.0,Credit Card,Transport expense at Petrol Pump,2026,June,6,11,Thursday,False,Low,False
-2026-06-11,100196,Myntra,Shopping,3064.89,UPI,Shopping expense at Myntra,2026,June,6,11,Thursday,False,Very High,True
+2026-06-11,100196,Myntra,Shopping,3064.89,UPI,Shopping expense at Myntra,2026,June,6,11,Thursday,False,Very High,False
 2026-06-11,100197,Local Market,Shopping,1387.6,Debit Card,Shopping expense at Local Market,2026,June,6,11,Thursday,False,Very High,False
 2026-06-11,100198,Zomato,Food & Dining,184.65,UPI,Food & Dining expense at Zomato,2026,June,6,11,Thursday,False,Low,False
 2026-06-12,100199,1mg,Health,1311.36,UPI,Health expense at 1mg,2026,June,6,12,Friday,False,Very High,False
