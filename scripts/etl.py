@@ -1,6 +1,9 @@
-import pandas as pd
+import os
 from pathlib import Path
-import sqlite3
+
+import pandas as pd
+from dotenv import load_dotenv
+from sqlalchemy import URL, create_engine, text
 
 
 # Project paths
@@ -11,7 +14,12 @@ PROCESSED_DATA_PATH = (
     BASE_DIR / "data" / "processed" / "expenses_clean.csv"
 )
 
-DB_PATH = BASE_DIR / "db" / "finance.db"
+load_dotenv()
+
+DB_USER = os.getenv("DB_USER")
+DB_PASSWORD = os.getenv("DB_PASSWORD")
+DB_HOST = os.getenv("DB_HOST")
+DB_NAME = os.getenv("DB_NAME")
 
 EXPECTED_COLUMNS = {
     "date",
@@ -178,40 +186,51 @@ def save_processed_data(df):
 
 # Load
 
-def load_to_database(df):
-    """Load processed transaction data into SQLite."""
+def create_database_engine():
+    """Create a connection engine for the MySQL database."""
 
-    DB_PATH.parent.mkdir(
-        parents=True,
-        exist_ok=True,
+    database_url = URL.create(
+        drivername="mysql+mysqlconnector",
+        username=DB_USER,
+        password=DB_PASSWORD,
+        host=DB_HOST,
+        database=DB_NAME,
     )
 
-    with sqlite3.connect(DB_PATH) as connection:
-        df.to_sql(
-            "transactions",
-            connection,
-            if_exists="replace",
-            index=False,
-        )
+    return create_engine(database_url)
+
+
+def load_to_database(df):
+    """Load processed transaction data into MySQL."""
+
+    engine = create_database_engine()
+
+    df.to_sql(
+        "transactions",
+        engine,
+        if_exists="replace",
+        index=False,
+    )
 
     print(
         f"Loaded {len(df)} transactions "
-        "into SQLite database."
+        "into MySQL database."
     )
+
 
 # Verification
 
 def verify_database():
-    """Verify transactions were loaded into SQLite."""
+    """Verify transactions were loaded into MySQL."""
 
-    with sqlite3.connect(DB_PATH) as connection:
-        cursor = connection.cursor()
+    engine = create_database_engine()
 
-        cursor.execute(
-            "SELECT COUNT(*) FROM transactions"
+    with engine.connect() as connection:
+        result = connection.execute(
+            text("SELECT COUNT(*) FROM transactions")
         )
 
-        row_count = cursor.fetchone()[0]
+        row_count = result.scalar()
 
     print(
         f"Database verification passed: "
